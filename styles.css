@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap);
+
+:root {
+    --color-red: #e50914;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.banner-wrap {
+    display: flex;
+    flex-direction: column;
+    background: url(images/bgimage.jpg) 0 0 no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0 0;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-wrap::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-color: rgba(0, 0,0, 0.6);
+    z-index: -1;
+} 
+
+.menu-area {
+    padding: 50px 4%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-area .btn {
+    color: white;
+    padding: 7px 17px;
+    background-color: var(--color-red);
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu-area .logo img{
+    height: 35px;
+}
+
+.banner-container {
+    height: calc(100% - 35px);
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-container h1 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    padding-bottom: ;
+}
+
+.banner-container h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+    margin: 1rem auto;
+}
+
+.banner-container h3 {
+    font-size: 1.2rem;
+    padding-bottom: 20px;
+    font-weight: 400;
+}
+
+.get-started form {
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+    border: none;
+    flex-wrap: wrap;
+}
+
+.get-started form input {
+    padding-left: 10px;
+    font-size: 16px;
+    height: 100%;
+    width: 455px;
+}
+
+.get-started form button {
+    color: white;
+    font-size: 26px;
+    height: 100%;
+    width: 255px;
+    border: none;
+    background-color: var(--color-red);
+}
+
