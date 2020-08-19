@@ -1,0 +1,54 @@
+@media screen and (max-width: 480px) {
+
+    * {
+        font-size: 10.5px;
+    }
+
+    .get-started form {
+        height: 48px;
+    }
+    .get-started form input {
+        padding-left: 10px;
+        font-size: 16px;
+        height: 100%;
+        width: 350px;
+        margin-bottom: 25px;
+    }
+    .get-started form button {
+        padding-left: 10px;
+        font-size: 16px;
+        height: 40px;
+        width: 150px;
+        margin-bottom: 25px;
+    }
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        padding: 20px 15px;
+        text-align: center;
+    }    
+
+    .tv img {
+        width: 100%;
+    }
+
+    .video video {
+        width: 80%;
+        object-fit: contain;
+    }
+
+    .footer .footer-items {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        width: 90%;
+        padding-left: 25px;
+    }
+    .mobCol {
+        display: flex;
+        flex-direction: column;
+    }
+}
